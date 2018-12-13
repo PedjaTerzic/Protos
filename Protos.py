@@ -44,7 +44,7 @@ class Protos(Frame):
         lbl2 = Label(frame2, text="The nth prime number is :", width=22,background='orange')
         lbl2.pack(side=LEFT, padx=5, pady=5)
 
-        result = Entry(frame2,textvariable=res,style='My.TEntry')
+        result = Entry(frame2,textvariable=res,style='My.TEntry',state='readonly')
         result.pack(fill=X, padx=5, expand=True)
 
 		
